@@ -1,0 +1,25 @@
+.layout {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.layout__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.layout__logo {
+  color: white !important;
+  margin: 0 !important;
+}
+
+.layout__content {
+  flex: 1 0 auto;
+  padding: 50px 0;
+}
+.layout__logout {
+  margin-left: auto;
+  display: inline-block;
+}
